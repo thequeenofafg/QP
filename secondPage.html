@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Qualitätsprüfung.de</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style/body.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/sidbar.css">
+    <link rel="stylesheet" href="style/content2.css">
+    <link rel="stylesheet" href="style/footer.css">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <button class="option-button" onclick="toggleDiv()">
+         <img src="icon/hamburger-menu.svg">
+       </button>
+      </div>
+    </header>
+    <div class="sidbar" id="sidbar">
+      <button>Qualit&auml;tspr&uuml;fung Daten</button>
+      <button> Fahrzeug außen</button>
+      <button>Fahrzeug innen</button>
+      <button> Ansagen/ Anzeigen</button>
+      <button>Fahrpersonal</button>
+      <button>Fahrt</button>
+    </div>
+    <div class="content">
+      <form action="">
+        <div>
+          <label for="einstieg">Einstieg: </label>
+          <input type="search" name="einstieg" id="einstieg"></div>
+        </div>
+        <div>
+          <label for="ausstieg">Ausstieg: </label>
+          <input type="search" name="ausstieg" id="ausstieg"></div>
+        </div>
+        <br>
+        <div>
+          <label for="PV">Prognosedaten: </label>
+          <select name="PV" id="PV">
+            <option value="ja">Ja</option>
+            <option value="nein">Nein</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <label for="fahrzeug">Fahrzeugtyp: </label>
+          <select name="fahrzeug" id="fahrzeug">
+            <option value="hochboden">Hochboden</option>
+            <option value="niederflur">Niederflur</option>
+            <option value="lowentry">Low-Entry</option>
+            <option value="kleinbus">PKW/Kleinbus</option>
+            <option value="solobus">Solobus</option>
+            <option value="15meter">15-Meter</option>
+            <option value="gelenkbus">Gelenkbus</option>
+            <option value="midibus">Midibus</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div>
+        <button class="back" onclick="window.location.href='index.html';">zur&#252;ck</button>
+      </div>
+      <div class="pages"><p>Seite 2</p></div>
+      <div>
+        <button class="next" onclick="window.location.href='thirdPage.html';">n&#228;schte</button>
+      </div>
+    </footer>
+    <script src="js/secondPage.js"></script>
+  </body>
+</html>

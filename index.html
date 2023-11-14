@@ -9,14 +9,18 @@
     <link rel="stylesheet" href="style/body.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/sidbar.css">
+    <link rel="stylesheet" href="style/contentIndex.css">
+    <link rel="stylesheet" href="style/footer.css">
   </head>
   <body>
-    <div class="header">
-       <button class="option-button">
-        <img src="icon/hamburger-menu.svg">
-      </button>
-    </div>
-    <div class="sidbar">
+    <header>
+      <div class="header">
+        <button class="option-button" onclick="toggleDiv()">
+         <img src="icon/hamburger-menu.svg">
+       </button>
+      </div>
+    </header>
+    <div class="sidbar" id="sidbar">
       <button>Qualit&auml;tspr&uuml;fung Daten</button>
       <button> Fahrzeug außen</button>
       <button>Fahrzeug innen</button>
@@ -25,7 +29,63 @@
       <button>Fahrt</button>
     </div>
     <div class="content">
-      <p>NVV Qualit&auml;tspr&uuml;fung Bus</p>
+      <caption><H1>NVV Qualitätsprüfung Bus</H1></caption>
+      <form action="">
+        <div>
+          <label for="ausNummer" style="font-size: 50px;margin-right: 10px;">Auswetungsnr: </label>
+          <input type="text" name="ausNummer" id="ausNummer" style="width: 350px; height: 50px;  border-radius: 10px; border: none; font-size: 30px;">
+        </div>
+        <br>
+        <div>
+          <label for="wetter"style="font-size: 50px;">Wetter: </label>
+          <select name="wetter" id="wetter" style="width:200px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:190px;">
+            <option value="trocken">trocken</option>
+            <option value="Regen">Regen</option>
+            <option value="">Schnee</option>
+            <option value="">sonstiges</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <label for="qp" style="font-size: 50px; ">QP: </label>
+          <select name="qp" id="qp" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:270px;">
+            <option value="Manizha Hashimi">Manizha Hashimi</option>
+            <option value="Marah Mosili"></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <label for="date" style="font-size: 50px;">Datum</label>
+          <input type="date" id="date" name="date" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:210px;">
+        </div>
+        <br>
+        <div>
+          <label for="timeP" style="font-size: 50px;">Abfahrtplan: </label>
+          <input type="time" id="timeP" name="timeP" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:70px;">
+        </div>
+        <br>
+        <div>
+          <label for="timeT" style="font-size: 50px;">tats. Abfahrt: </label>
+          <input type="time" id="timeT" name="timeT" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:60px;">
+        </div>
+        <br>
+        <div>
+          <label for="kennzeichen" style="font-size: 50px;">Kennzeichen: </label>
+          <input type="text" name="KZ" id="kennzeichen" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:60px;">
+        </div>
+        <br>
+      </form>
     </div>
+    <footer>
+      <div> <p></p></div>
+      <div class="pages"><p>Seite 1</p></div>
+      <div>
+        <button class="next" onclick="window.location.href='secondPage.html';">n&#228;schte</button>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>
