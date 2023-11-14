@@ -13,50 +13,19 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  height: 100px;
+  height: 200px;
 }
 .option-button {
   background-color: rgb(238, 238, 238);
   border: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 70px;
-  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 130px;
+  height: 130px;
 }
-.option-button:focus + .sidbar {
- opacity: 1;
+.option-button img {
+  padding: 5px;
 }
-.sidbar {
-  background-color: rgb(238, 238, 238);
-  position: fixed;
-  left: 0px;
-  top: 110px;
-  width: 150px;
-  opacity: 1;
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 1000px;
-  padding-top: 20px;
-  padding-bottom: 200px;
-}
-.sidbar button {
-  background-color: rgb(238, 238, 238);
-  margin-top: 10px;
-  font-size: 14px;
-  font-style: 500;
-  border: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.content p {
-  font-weight: 700;
-  background-color: lightblue;
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 18px;
-  opacity: 0;
-} 
+
+
+
