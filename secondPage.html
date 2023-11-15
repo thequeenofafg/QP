@@ -31,25 +31,27 @@
     <div class="content">
       <form action="">
         <div>
-          <label for="einstieg">Einstieg: </label>
-          <input type="search" name="einstieg" id="einstieg"></div>
+          <label for="line" style="font-size: 50px; margin-right: 180px;">Linie: </label>
+          <input type="text" name="line" id="line" style="width: 400px; height: 50px;  border-radius: 10px; border: none; font-size: 30px;">
         </div>
         <div>
-          <label for="ausstieg">Ausstieg: </label>
-          <input type="search" name="ausstieg" id="ausstieg"></div>
+          <label for="einstieg" style="font-size: 50px; margin-right: 110px;">Einstieg: </label>
+          <input type="search" name="einstieg" id="einstieg" style="width: 400px; height: 50px;  border-radius: 10px; border: none; font-size: 30px;">
         </div>
-        <br>
         <div>
-          <label for="PV">Prognosedaten: </label>
-          <select name="PV" id="PV">
+          <label for="ausstieg" style="font-size: 50px; margin-right: 100px;">Ausstieg: </label>
+          <input type="search" name="ausstieg" id="ausstieg" style="width: 400px; height: 50px;  border-radius: 10px; border: none; font-size: 30px;">
+        </div>
+        <div>
+          <label for="PV" style="font-size: 50px; margin-right: 40px;" >P.vorhanden: </label>
+          <select name="PV" id="PV" style="width: 150px; height: 50px;  border-radius: 10px; border: none; font-size: 30px;">
             <option value="ja">Ja</option>
             <option value="nein">Nein</option>
           </select>
         </div>
-        <br>
         <div>
-          <label for="fahrzeug">Fahrzeugtyp: </label>
-          <select name="fahrzeug" id="fahrzeug">
+          <label for="fahrzeug" style="font-size: 50px; margin-right: 40px">Fahrzeugtyp: </label>
+          <select name="fahrzeug" id="fahrzeug" style="width: 250px; height: 50px;  border-radius: 10px; border: none; font-size: 30px;">
             <option value="hochboden">Hochboden</option>
             <option value="niederflur">Niederflur</option>
             <option value="lowentry">Low-Entry</option>
@@ -68,7 +70,7 @@
       </div>
       <div class="pages"><p>Seite 2</p></div>
       <div>
-        <button class="next" onclick="window.location.href='thirdPage.html';">n&#228;schte</button>
+        <button class="next" onclick="window.location.href='thirdPage.html';">weiter</button>
       </div>
     </footer>
     <script src="js/secondPage.js"></script>
