@@ -1,9 +1,7 @@
 .content  {
-
-  font-weight: 700;
+  font-weight: 500;
   margin-left: 50px;
   margin-right: 50px;
-  font-size: 18px;
 }
 form {
   background-color: #dd8a8a;
@@ -15,9 +13,13 @@ form {
   align-items: left;
   padding-top: 50px;
   padding-left: 50px;
+  max-height: 900px;
 }
 H1 {
+  height: 70px;
   font-size: 60px;
   padding-left: 20px;
   padding-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
