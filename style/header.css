@@ -1,12 +1,11 @@
-.header {
+header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: left;
-  background-color: rgb(255, 255, 255);
-  border-bottom-color: red;
-  border-bottom: 1px solid #ccc; /* Adjust border properties as needed */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adjust shadow properties as needed */
+  justify-content: space-between;
+  background-color: #005AAA;
+  border-bottom-color: rgb(0, 0, 0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   padding: 5px;
   padding-left: 15px;
   position: fixed;
@@ -16,15 +15,21 @@
   height: 200px;
 }
 .option-button {
-  background-color: rgb(238, 238, 238);
+  background-color: #005AAA;
   border: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 130px;
-  height: 130px;
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
 }
 .option-button img {
   padding: 5px;
+}
+.nvv-logo {
+  margin-left: 20px;
+  width: 200px;
+  height: 100px;
 }
 
 

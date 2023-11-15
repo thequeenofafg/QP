@@ -4,7 +4,7 @@
   margin-right: 50px;
 }
 form {
-  background-color: #dd8a8a;
+  background-color: #ffffff;
   color: black;
   display: flex;
   height: 1000px;
@@ -13,7 +13,11 @@ form {
   align-items: left;
   padding-top: 50px;
   padding-left: 50px;
-  max-height: 900px;
+  max-height: 1000px;
+  border-radius: 15px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #108129;
 }
 H1 {
   height: 70px;

@@ -14,31 +14,38 @@
   </head>
   <body>
     <header>
-      <div class="header">
+      <div>
+        <img src="icon/NVV_Logo_JPEG.jpg" alt="" class="nvv-logo">
+      </div>
+      <div>
         <button class="option-button" onclick="toggleDiv()">
          <img src="icon/hamburger-menu.svg">
-       </button>
+        </button>
       </div>
     </header>
     <div class="sidbar" id="sidbar">
-      <button>Qualit&auml;tspr&uuml;fung Daten</button>
-      <button> Fahrzeug außen</button>
-      <button>Fahrzeug innen</button>
-      <button> Ansagen/ Anzeigen</button>
-      <button>Fahrpersonal</button>
-      <button>Fahrt</button>
+      <div><button style="padding-left: 40px;">Qualit&auml;tspr&uuml;fung Daten</button></div>
+      <div> <button style="padding-left: 110px;"> Fahrzeug außen</button></div>
+      <div><button style="padding-left: 110px;">Fahrzeug innen</button></div>
+      <div><button style="padding-left: 80px;"> Ansagen/ Anzeigen</button></div>
+      <div><button style="padding-left: 120px;">Fahrpersonal</button></div>
+      <div> <button style="padding-left: 180px;">Fahrt</button></div>
     </div>
     <div class="content">
       <caption><H1>NVV Qualitätsprüfung Bus</H1></caption>
       <form action="">
         <div>
           <label for="ausNummer" style="font-size: 50px;margin-right: 10px;">Auswetungsnr: </label>
-          <input type="text" name="ausNummer" id="ausNummer" style="width: 350px; height: 50px;  border-radius: 10px; border: none; font-size: 30px;">
+          <input type="text" name="ausNummer" id="ausNummer" style="width: 350px; height: 50px;  border-radius: 10px;  font-size: 30px; border-width: 5px;
+          border-style: solid;
+          border-color: #108129;">
         </div>
         <br>
         <div>
           <label for="wetter"style="font-size: 50px;">Wetter: </label>
-          <select name="wetter" id="wetter" style="width:200px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:190px;">
+          <select name="wetter" id="wetter" style="width:200px; height: 60px;  border-radius: 10px; font-size: 30px; margin-left:190px; border-width: 5px;
+          border-style: solid;
+          border-color: #108129;">
             <option value="trocken">trocken</option>
             <option value="Regen">Regen</option>
             <option value="">Schnee</option>
@@ -48,7 +55,9 @@
         <br>
         <div>
           <label for="qp" style="font-size: 50px; ">QP: </label>
-          <select name="qp" id="qp" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:270px;">
+          <select name="qp" id="qp" style="width:300px; height: 65px;  border-radius: 10px; font-size: 30px; margin-left:270px; border-width: 5px;
+          border-style: solid;
+          border-color: #108129;">
             <option value="Manizha Hashimi">Manizha Hashimi</option>
             <option value="Marah Mosili"></option>
             <option value=""></option>
@@ -59,28 +68,38 @@
         <br>
         <div>
           <label for="date" style="font-size: 50px;">Datum</label>
-          <input type="date" id="date" name="date" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:210px;">
+          <input type="date" id="date" name="date" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:210px;border-width: 5px;
+          border-style: solid;
+          border-color: #108129;">
         </div>
         <br>
         <div>
           <label for="timeP" style="font-size: 50px;">Abfahrtplan: </label>
-          <input type="time" id="timeP" name="timeP" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:70px;">
+          <input type="time" id="timeP" name="timeP" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:70px;border-width: 5px;
+          border-style: solid;
+          border-color: #108129;">
         </div>
         <br>
         <div>
           <label for="timeT" style="font-size: 50px;">tats. Abfahrt: </label>
-          <input type="time" id="timeT" name="timeT" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:60px;">
+          <input type="time" id="timeT" name="timeT" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:60px; border-width: 5px;
+          border-style: solid;
+          border-color: #108129;">
         </div>
         <br>
         <div>
           <label for="kennzeichen" style="font-size: 50px;">Kennzeichen: </label>
-          <input type="text" name="KZ" id="kennzeichen" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:60px;">
+          <input type="text" name="KZ" id="kennzeichen" style="width:300px; height: 50px;  border-radius: 10px; border: none; font-size: 30px; margin-left:60px; border-width: 5px;
+          border-style: solid;
+          border-color: #108129;">
         </div>
         <br>
       </form>
     </div>
     <footer>
-      <div> <p></p></div>
+      <div>
+        <button class="back" onclick="window.location.href='index.html';" style="border: none; color: rgb(255, 255, 255);">zur&#252;ck</button>
+      </div>
       <div class="pages"><p>Seite 1</p></div>
       <div>
         <button class="next" onclick="window.location.href='secondPage.html';">weiter</button>

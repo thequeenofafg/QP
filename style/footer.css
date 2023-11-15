@@ -1,43 +1,50 @@
 footer {
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 } 
 .next {
-  background-color: #dd8a8a; /* Green */
+  background-color: #ffffff; /* Green */
   border: none;
-  border-radius: 15px;
+  border-radius: 30px;
   color: black;
   padding: 16px 32px;
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   margin: 4px 2px;
   cursor: pointer;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  #005AAA;
+  margin-right: 20px;
 }
 .next:hover { 
-  background-color: #fafafa;
+  background-color: #005AAA;
   transition-duration: 0.1s;
 }
 .pages {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: bold;
 }
 .back {
-  background-color: #dd8a8a; /* Green */
-  border: none;
-  border-radius: 15px;
+  background-color: #ffffff; /* Green */
+  border-radius: 30px;
   color: black;
   padding: 16px 32px;
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   margin: 4px 2px;
   cursor: pointer;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  #005AAA;
+  margin-left: 20px;
 }
 .back:hover { 
-  background-color: #fafafa;
+  background-color: #005AAA;
   transition-duration: 0.1s;
 }

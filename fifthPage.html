@@ -14,23 +14,84 @@
   </head>
   <body>
     <header>
-      <div class="header">
+      <div>
+        <img src="icon/NVV_Logo_JPEG.jpg" alt="" class="nvv-logo">
+      </div>
+      <div>
         <button class="option-button" onclick="toggleDiv()">
          <img src="icon/hamburger-menu.svg">
-       </button>
+        </button>
       </div>
     </header>
     <div class="sidbar" id="sidbar">
-      <button>Qualit&auml;tspr&uuml;fung Daten</button>
-      <button> Fahrzeug außen</button>
-      <button>Fahrzeug innen</button>
-      <button> Ansagen/ Anzeigen</button>
-      <button>Fahrpersonal</button>
-      <button>Fahrt</button>
+      <div><button style="padding-left: 40px;">Qualit&auml;tspr&uuml;fung Daten</button></div>
+      <div> <button style="padding-left: 110px;"> Fahrzeug außen</button></div>
+      <div><button style="padding-left: 110px;">Fahrzeug innen</button></div>
+      <div><button style="padding-left: 80px;"> Ansagen/ Anzeigen</button></div>
+      <div><button style="padding-left: 120px;">Fahrpersonal</button></div>
+      <div> <button style="padding-left: 180px;">Fahrt</button></div>
     </div>
     <div class="content">
-      <p>NVV Qualit&auml;tspr&uuml;fung Bus</p>
-    </div>
+      <caption><H1>Fahrzeug innen</H1></caption>
+      <form action="">
+       <div>
+         <label for="FIfrage10" style="font-size: 28px; margin-right: 40px;">18. Fahren ohne Fahrschein Warnung vorhanden?</label>
+         <select name="FIfrage10" id="FIfrage10" style="width: 120px; height: 50px;  border-radius: 10px;  border-width: 5px;border-style: solid; border-color: #108129; font-size: 30px;">
+           <option value="ja">Ja</option>
+           <option value="nein">Nein</option>
+         </select>
+       </div>
+       <div>
+         <label for="FIfrag11" style="font-size: 30px; margin-right: 40px;">19. Monitor vorhanden? </label>
+         <select name="FIfrage11" id="FIfrage11" style="width: 120px; height: 50px;  border-radius: 10px;  border-width: 5px;border-style: solid; border-color: #108129; font-size: 30px;">
+           <option value="ja">Ja</option>
+           <option value="nein">Nein</option>
+         </select>
+       </div>
+       <div>
+         <label for="FIfrage12" style="font-size: 30px; margin-right: 40px;">20. andere Haltstellenanzeige vorhanden? </label>
+         <select name="FIfrage12" id="FIfrage12" style="width: 120px; height: 50px;  border-radius: 10px;  border-width: 5px;border-style: solid; border-color: #108129; font-size: 30px;">
+           <option value="ja">Ja</option>
+           <option value="nein">Nein</option>
+         </select>
+       </div>
+       <div>
+         <label for="FIfrage13" style="font-size: 30px; margin-right: 40px;">21. "Wagen hält" angezeigt an Monitor?  </label>
+         <select name="FIfrage13" id="FIfrage13" style="width: 120px; height: 50px;  border-radius: 10px;  border-width: 5px;border-style: solid; border-color: #108129; font-size: 30px;">
+           <option value="ja">Ja</option>
+           <option value="nein">Nein</option>
+         </select>
+       </div>
+       <div>
+         <label for="FIfrage14" style="font-size: 30px; margin-right: 40px;">22. Ansage wird durchgeführt? </label>
+         <select name="FIfrage14" id="FIfrage14" style="width: 120px; height: 50px;  border-radius: 10px;  border-width: 5px;border-style: solid; border-color: #108129; font-size: 30px;">
+           <option value="ja">Ja</option>
+           <option value="nein">Nein</option>
+         </select>
+       </div>
+       <div>
+         <label for="FIfrage15" style="font-size: 28px; margin-right: 40px;">23. Ansage/Anzeige stimmen mit Fahrt überein?</label>
+         <select name="FIfrage15" id="FIfrage15" style="width: 120px; height: 50px;  border-radius: 10px;  border-width: 5px;border-style: solid; border-color: #108129; font-size: 30px;">
+           <option value="ja">Ja</option>
+           <option value="nein">Nein</option>
+         </select>
+       </div>
+       <div>
+         <label for="FIfrage16" style="font-size: 30px; margin-right: 40px;">23. Haltenwunschtasten funktionsfähig? </label>
+         <select name="FIfrage16" id="FIfrage16" style="width: 120px; height: 50px;  border-radius: 10px;  border-width: 5px;border-style: solid; border-color: #108129; font-size: 30px;">
+           <option value="ja">Ja</option>
+           <option value="nein">Nein</option>
+         </select>
+       </div>
+       <div>
+         <label for="FIfrage17" style="font-size: 30px; margin-right: 40px;">24. WLAN funktionsfähig? </label>
+         <select name="FIfrage17" id="FIfrage17" style="width: 120px; height: 50px;  border-radius: 10px;  border-width: 5px;border-style: solid; border-color: #108129; font-size: 30px;">
+           <option value="ja">Ja</option>
+           <option value="nein">Nein</option>
+         </select>
+       </div>
+      </form>
+     </div>
     <footer>
       <div>
         <button class="back" onclick="window.location.href='fourthPage.html';">zur&#252;ck</button>
